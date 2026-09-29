@@ -1,0 +1,18 @@
+# ---- personal data: never publish ----
+vault/*
+!vault/.gitkeep
+.index/
+sources/
+outputs/
+screenshots/*
+!screenshots/public/
+tests/results/
+tests/questions.json
+config/curation.json
+README.private.md
+*.pdf
+# ---- machine / local ----
+.venv/
+.scratch/
+__pycache__/
+.DS_Store

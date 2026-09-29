@@ -1,0 +1,27 @@
+{
+  "folders": [
+    "Interview Basics",
+    "Personal Pitch",
+    "Firm Motivation",
+    "Stories",
+    "Questions",
+    "Sources"
+  ],
+  "sources": [],
+  "deck_slides": [],
+  "general_questions": [],
+  "starl_stories": [],
+  "projects": [],
+  "question_bank": [],
+  "questions_to_ask_title": "Questions To Ask {firm}",
+  "questions_to_stories_title": "Questions To Stories Map",
+  "link_terms": {
+    "STARL": "STARL Story Building Blocks"
+  },
+  "competencies": {
+    "Personal Impact": "Personal Impact",
+    "Enterprenuerial Drive": "Entrepreneurial Drive",
+    "Problem Solving": "Problem Solving Skills",
+    "Leadership": "Leadership"
+  }
+}

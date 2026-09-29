@@ -1,0 +1,68 @@
+{
+  "ask_answerable": [
+    {
+      "id": "A1",
+      "q": "What are the four competency areas that FIT interviewers assess?",
+      "expect_all": [
+        "Personal Impact",
+        "Entrepreneurial Drive",
+        "Problem Solving",
+        "Leadership"
+      ],
+      "expect_path": "Competency Areas"
+    },
+    {
+      "id": "A2",
+      "q": "What are the building blocks of the STARL framework for structuring a story?",
+      "expect_all": [
+        "Situation",
+        "Task",
+        "Action",
+        "Result",
+        "Learning"
+      ],
+      "expect_path": "STARL Story Building Blocks"
+    },
+    {
+      "id": "A3",
+      "q": "<a question whose answer sits in one of YOUR notes>",
+      "expect_all": [
+        "<term>"
+      ],
+      "expect_path": "<note title>"
+    }
+  ],
+  "ask_unsupported": [
+    {
+      "id": "U1",
+      "q": "What was Bain & Company's global revenue in 2024?"
+    }
+  ],
+  "chat_casual": "Hey Milo! Quick vibe check: how is your day going?",
+  "chat_draft": "Draft a two-sentence thank-you note to a consultant who gave me a 20-minute coffee chat.",
+  "chat_followup": [
+    "Give me three short names for a pet goldfish.",
+    "Which of those is the funniest, and why?"
+  ],
+  "search": {
+    "q": "competency areas",
+    "expect_path": "Competency Areas.md"
+  },
+  "separation": {
+    "fact": "Remember this: my lucky number is 47.",
+    "ask": "What is my lucky number?"
+  },
+  "ask_new_source": {
+    "id": "N1",
+    "q": "How soon after a coffee chat should a thank-you note be sent?",
+    "expect_all": [
+      "24"
+    ],
+    "expect_path": "Coffee Chat Etiquette"
+  },
+  "chat_with_notes": {
+    "prompt": "Help me polish one of my stories into three sentences.",
+    "expect_path": "<note title>",
+    "expect_word": "<term>"
+  }
+}
